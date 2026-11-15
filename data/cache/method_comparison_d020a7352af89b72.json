@@ -1,0 +1,38 @@
+{
+  "k": 2,
+  "components": 5,
+  "validation_sample_size": 3000,
+  "metric_space": "Standardized 8-feature original space",
+  "methods": [
+    {
+      "name": "PCA + GMM (Recommended)",
+      "k": 2,
+      "c": 5,
+      "membership": "Soft (Posterior Probabilities)",
+      "cluster_shape": "Full Covariance (Ellipsoidal / Tilted)",
+      "silhouette": 0.237,
+      "davies_bouldin": 1.35,
+      "rank_note": "Best compromise: compact 2D space, captures non-spherical regimes"
+    },
+    {
+      "name": "PCA + K-Means",
+      "k": 2,
+      "c": 5,
+      "membership": "Hard Partition",
+      "cluster_shape": "Spherical / Distance-based Voronoi",
+      "silhouette": 0.249,
+      "davies_bouldin": 1.362,
+      "rank_note": "Slightly higher silhouette but forces spherical clusters and no uncertainty"
+    },
+    {
+      "name": "Standardized GMM (No PCA)",
+      "k": 8,
+      "c": 5,
+      "membership": "Soft (Posterior Probabilities)",
+      "cluster_shape": "Full Covariance in 8D",
+      "silhouette": 0.095,
+      "davies_bouldin": 2.522,
+      "rank_note": "Degraded clustering due to collinearity and noise in full 8D feature space"
+    }
+  ]
+}

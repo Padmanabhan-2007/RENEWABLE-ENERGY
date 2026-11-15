@@ -1,0 +1,337 @@
+{
+  "k": 2,
+  "c": 5,
+  "total_val_hours": 3945,
+  "clusters": [
+    {
+      "cluster_id": 0,
+      "cluster_label": "Cluster 1",
+      "name": "Moderate Solar / Low Wind (Transitional Daytime)",
+      "count": 484,
+      "share_pct": 12.3,
+      "feature_stats": {
+        "DHI": {
+          "median": 70.7,
+          "mean": 72.0,
+          "q25": 42.1,
+          "q75": 93.5
+        },
+        "DNI": {
+          "median": 486.1,
+          "mean": 460.4,
+          "q25": 315.4,
+          "q75": 621.4
+        },
+        "GHI": {
+          "median": 234.0,
+          "mean": 244.3,
+          "q25": 97.4,
+          "q75": 367.3
+        },
+        "Wind_speed": {
+          "median": 2.5,
+          "mean": 2.5,
+          "q25": 2.2,
+          "q75": 2.9
+        },
+        "Humidity": {
+          "median": 43.6,
+          "mean": 44.2,
+          "q25": 38.5,
+          "q75": 48.8
+        },
+        "Temperature": {
+          "median": 20.2,
+          "mean": 20.0,
+          "q25": 15.3,
+          "q75": 25.1
+        },
+        "PV_production": {
+          "median": 5172.1,
+          "mean": 5047.2,
+          "q25": 1637.1,
+          "q75": 7763.1
+        },
+        "Wind_production": {
+          "median": 2009.9,
+          "mean": 2023.5,
+          "q25": 1183.7,
+          "q75": 2753.0
+        }
+      },
+      "pv_median": 5172.1,
+      "wind_median": 2009.9,
+      "ghi_median": 234.0,
+      "wind_speed_median": 2.5,
+      "season_distribution": {
+        "2": 221,
+        "1": 167,
+        "3": 96
+      }
+    },
+    {
+      "cluster_id": 1,
+      "cluster_label": "Cluster 2",
+      "name": "Nighttime Strong Wind Generation",
+      "count": 1450,
+      "share_pct": 36.8,
+      "feature_stats": {
+        "DHI": {
+          "median": 0.0,
+          "mean": 2.4,
+          "q25": 0.0,
+          "q75": 0.0
+        },
+        "DNI": {
+          "median": 0.0,
+          "mean": 14.9,
+          "q25": 0.0,
+          "q75": 0.0
+        },
+        "GHI": {
+          "median": 0.0,
+          "mean": 4.5,
+          "q25": 0.0,
+          "q75": 0.0
+        },
+        "Wind_speed": {
+          "median": 2.3,
+          "mean": 2.4,
+          "q25": 1.9,
+          "q75": 2.7
+        },
+        "Humidity": {
+          "median": 60.5,
+          "mean": 61.2,
+          "q25": 53.9,
+          "q75": 68.5
+        },
+        "Temperature": {
+          "median": 12.5,
+          "mean": 13.4,
+          "q25": 9.1,
+          "q75": 16.9
+        },
+        "PV_production": {
+          "median": 0.0,
+          "mean": 121.1,
+          "q25": 0.0,
+          "q75": 0.0
+        },
+        "Wind_production": {
+          "median": 3836.5,
+          "mean": 3755.7,
+          "q25": 3196.5,
+          "q75": 4394.9
+        }
+      },
+      "pv_median": 0.0,
+      "wind_median": 3836.5,
+      "ghi_median": 0.0,
+      "wind_speed_median": 2.3,
+      "season_distribution": {
+        "2": 837,
+        "1": 480,
+        "3": 133
+      }
+    },
+    {
+      "cluster_id": 2,
+      "cluster_label": "Cluster 3",
+      "name": "Peak Solar Dominance (Midday Clear Sky)",
+      "count": 741,
+      "share_pct": 18.8,
+      "feature_stats": {
+        "DHI": {
+          "median": 138.7,
+          "mean": 147.5,
+          "q25": 113.1,
+          "q75": 175.2
+        },
+        "DNI": {
+          "median": 766.7,
+          "mean": 760.1,
+          "q25": 660.6,
+          "q75": 892.4
+        },
+        "GHI": {
+          "median": 763.9,
+          "mean": 750.6,
+          "q25": 639.3,
+          "q75": 870.6
+        },
+        "Wind_speed": {
+          "median": 3.2,
+          "mean": 3.2,
+          "q25": 2.8,
+          "q75": 3.6
+        },
+        "Humidity": {
+          "median": 29.1,
+          "mean": 29.6,
+          "q25": 26.2,
+          "q75": 32.4
+        },
+        "Temperature": {
+          "median": 28.2,
+          "mean": 27.1,
+          "q25": 23.0,
+          "q75": 32.0
+        },
+        "PV_production": {
+          "median": 11485.7,
+          "mean": 11221.7,
+          "q25": 10475.8,
+          "q75": 12216.1
+        },
+        "Wind_production": {
+          "median": 1404.6,
+          "mean": 1471.7,
+          "q25": 885.7,
+          "q75": 1915.0
+        }
+      },
+      "pv_median": 11485.7,
+      "wind_median": 1404.6,
+      "ghi_median": 763.9,
+      "wind_speed_median": 3.2,
+      "season_distribution": {
+        "2": 461,
+        "3": 160,
+        "1": 120
+      }
+    },
+    {
+      "cluster_id": 3,
+      "cluster_label": "Cluster 4",
+      "name": "Co-Generation High Solar & Strong Wind",
+      "count": 818,
+      "share_pct": 20.7,
+      "feature_stats": {
+        "DHI": {
+          "median": 114.9,
+          "mean": 123.4,
+          "q25": 82.2,
+          "q75": 158.0
+        },
+        "DNI": {
+          "median": 593.6,
+          "mean": 585.4,
+          "q25": 433.6,
+          "q75": 744.5
+        },
+        "GHI": {
+          "median": 467.0,
+          "mean": 479.0,
+          "q25": 274.3,
+          "q75": 675.0
+        },
+        "Wind_speed": {
+          "median": 4.1,
+          "mean": 4.2,
+          "q25": 3.5,
+          "q75": 4.8
+        },
+        "Humidity": {
+          "median": 40.3,
+          "mean": 41.4,
+          "q25": 33.9,
+          "q75": 47.7
+        },
+        "Temperature": {
+          "median": 18.7,
+          "mean": 19.3,
+          "q25": 15.0,
+          "q75": 23.5
+        },
+        "PV_production": {
+          "median": 9430.7,
+          "mean": 8666.3,
+          "q25": 6974.8,
+          "q75": 10954.2
+        },
+        "Wind_production": {
+          "median": 3749.7,
+          "mean": 3704.6,
+          "q25": 3166.0,
+          "q75": 4351.8
+        }
+      },
+      "pv_median": 9430.7,
+      "wind_median": 3749.7,
+      "ghi_median": 467.0,
+      "wind_speed_median": 4.1,
+      "season_distribution": {
+        "2": 522,
+        "1": 259,
+        "3": 37
+      }
+    },
+    {
+      "cluster_id": 4,
+      "cluster_label": "Cluster 5",
+      "name": "Nighttime Calm / Base Wind",
+      "count": 452,
+      "share_pct": 11.5,
+      "feature_stats": {
+        "DHI": {
+          "median": 0.0,
+          "mean": 2.6,
+          "q25": 0.0,
+          "q75": 0.0
+        },
+        "DNI": {
+          "median": 0.0,
+          "mean": 18.6,
+          "q25": 0.0,
+          "q75": 0.0
+        },
+        "GHI": {
+          "median": 0.0,
+          "mean": 4.9,
+          "q25": 0.0,
+          "q75": 0.0
+        },
+        "Wind_speed": {
+          "median": 1.8,
+          "mean": 1.8,
+          "q25": 1.5,
+          "q75": 2.0
+        },
+        "Humidity": {
+          "median": 53.3,
+          "mean": 54.6,
+          "q25": 49.3,
+          "q75": 59.1
+        },
+        "Temperature": {
+          "median": 11.3,
+          "mean": 13.0,
+          "q25": 8.9,
+          "q75": 17.3
+        },
+        "PV_production": {
+          "median": 0.0,
+          "mean": 117.1,
+          "q25": 0.0,
+          "q75": 0.0
+        },
+        "Wind_production": {
+          "median": 1422.8,
+          "mean": 1497.2,
+          "q25": 913.0,
+          "q75": 2069.7
+        }
+      },
+      "pv_median": 0.0,
+      "wind_median": 1422.8,
+      "ghi_median": 0.0,
+      "wind_speed_median": 1.8,
+      "season_distribution": {
+        "1": 266,
+        "2": 143,
+        "3": 43
+      }
+    }
+  ]
+}

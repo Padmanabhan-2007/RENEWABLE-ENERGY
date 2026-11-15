@@ -1,0 +1,80 @@
+{
+  "source_file": "Database.csv",
+  "file_sha256": "7623d1b3a8bd1e5e4be64d6ced29a376608e26239d3a27c3be6f0471f6d9e49d",
+  "sha256_match": false,
+  "n_raw_records": 315648,
+  "expected_raw_records": 315648,
+  "coverage_start": "2019-01-01 00:00:00",
+  "coverage_end": "2021-12-31 23:55:00",
+  "is_streaming": false,
+  "cadence_description": "5-minute continuous records resampled to 1-hour means",
+  "cadence_regular": true,
+  "cadence_five_min_count": 315647,
+  "missing_values_count": 0,
+  "negative_pv_count": 112829,
+  "negative_wind_count": 216,
+  "physical_ranges": {
+    "DHI": {
+      "min": 0.0,
+      "max": 431.0,
+      "mean": 53.77990673154907,
+      "std": 68.82999519060074
+    },
+    "DNI": {
+      "min": 0.0,
+      "max": 999.8,
+      "mean": 288.0586146593674,
+      "std": 336.05704002865275
+    },
+    "GHI": {
+      "min": 0.0,
+      "max": 1058.2,
+      "mean": 221.78798471715334,
+      "std": 296.63291363528305
+    },
+    "Wind_speed": {
+      "min": 0.66,
+      "max": 8.540000000000001,
+      "mean": 2.545758819951338,
+      "std": 1.042770943899957
+    },
+    "Humidity": {
+      "min": 11.572,
+      "max": 88.688,
+      "mean": 51.26146175486618,
+      "std": 16.31982563913523
+    },
+    "Temperature": {
+      "min": -0.5400000000000006,
+      "max": 39.02,
+      "mean": 17.472178692721005,
+      "std": 7.7016940448462226
+    },
+    "PV_production": {
+      "min": -145.0,
+      "max": 13191.0,
+      "mean": 3555.1397220954987,
+      "std": 4371.602323901911
+    },
+    "Wind_production": {
+      "min": -2476.0,
+      "max": 5743.0,
+      "mean": 2019.6425258515815,
+      "std": 1300.2852456741464
+    }
+  },
+  "imputer_changes": 0,
+  "hourly_rows": 26304,
+  "expected_hourly_rows": 26304,
+  "split": {
+    "train_rows": 18412,
+    "train_start": "2019-01-01 00:00:00",
+    "train_end": "2021-02-06 03:00:00",
+    "val_rows": 3945,
+    "val_start": "2021-02-06 04:00:00",
+    "val_end": "2021-07-20 12:00:00",
+    "test_rows": 3947,
+    "test_start": "2021-07-20 13:00:00",
+    "test_end": "2021-12-31 23:00:00"
+  }
+}

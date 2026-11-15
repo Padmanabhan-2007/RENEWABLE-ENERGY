@@ -1,0 +1,122 @@
+[
+  {
+    "k": 1,
+    "c_selected": 5,
+    "cum_evr": 61.2,
+    "recon_error": 38.8,
+    "silhouette": 0.162,
+    "davies_bouldin": 2.066,
+    "bic_by_c": {
+      "2": 36952.5,
+      "3": 36664.2,
+      "4": 36502.9,
+      "5": 36250.8
+    },
+    "is_recommended": false
+  },
+  {
+    "k": 2,
+    "c_selected": 5,
+    "cum_evr": 77.4,
+    "recon_error": 22.6,
+    "silhouette": 0.237,
+    "davies_bouldin": 1.35,
+    "bic_by_c": {
+      "2": 67394.5,
+      "3": 66817.7,
+      "4": 66524.4,
+      "5": 66346.9
+    },
+    "is_recommended": true
+  },
+  {
+    "k": 3,
+    "c_selected": 5,
+    "cum_evr": 88.2,
+    "recon_error": 11.8,
+    "silhouette": 0.145,
+    "davies_bouldin": 1.338,
+    "bic_by_c": {
+      "2": 91420.9,
+      "3": 90154.4,
+      "4": 88849.6,
+      "5": 88156.8
+    },
+    "is_recommended": false
+  },
+  {
+    "k": 4,
+    "c_selected": 5,
+    "cum_evr": 92.9,
+    "recon_error": 7.1,
+    "silhouette": 0.162,
+    "davies_bouldin": 1.489,
+    "bic_by_c": {
+      "2": 93689.2,
+      "3": 91816.5,
+      "4": 89921.8,
+      "5": 89067.9
+    },
+    "is_recommended": false
+  },
+  {
+    "k": 5,
+    "c_selected": 5,
+    "cum_evr": 96.3,
+    "recon_error": 3.7,
+    "silhouette": 0.141,
+    "davies_bouldin": 1.481,
+    "bic_by_c": {
+      "2": 91036.7,
+      "3": 89112.3,
+      "4": 86166.7,
+      "5": 84514.0
+    },
+    "is_recommended": false
+  },
+  {
+    "k": 6,
+    "c_selected": 5,
+    "cum_evr": 98.4,
+    "recon_error": 1.6,
+    "silhouette": 0.107,
+    "davies_bouldin": 1.688,
+    "bic_by_c": {
+      "2": 69139.4,
+      "3": 64309.7,
+      "4": 61636.1,
+      "5": 59857.0
+    },
+    "is_recommended": false
+  },
+  {
+    "k": 7,
+    "c_selected": 5,
+    "cum_evr": 99.3,
+    "recon_error": 0.7,
+    "silhouette": 0.047,
+    "davies_bouldin": 2.431,
+    "bic_by_c": {
+      "2": 41871.6,
+      "3": 36390.1,
+      "4": 33144.9,
+      "5": 30552.1
+    },
+    "is_recommended": false
+  },
+  {
+    "k": 8,
+    "c_selected": 5,
+    "cum_evr": 100.0,
+    "recon_error": 0.0,
+    "silhouette": 0.095,
+    "davies_bouldin": 2.522,
+    "bic_by_c": {
+      "2": 8906.7,
+      "3": -4397.3,
+      "4": -11641.3,
+      "5": -14688.1
+    },
+    "is_recommended": false
+  }
+]

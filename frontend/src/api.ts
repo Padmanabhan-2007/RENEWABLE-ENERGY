@@ -11,7 +11,15 @@ import type {
   ReadingFormValues,
 } from "./types";
 
-const BASE_URL = "/api";
+const API_ORIGIN = import.meta.env.VITE_API_BASE_URL?.replace(/\/+$/, "");
+
+if (!API_ORIGIN) {
+  throw new Error(
+    "VITE_API_BASE_URL is missing. Configure it in Vercel."
+  );
+}
+
+const BASE_URL = `${API_ORIGIN}/api`;
 
 export async function fetchStatus(): Promise<{ status: string; dataset_loaded: boolean }> {
   const res = await fetch(`${BASE_URL}/status`);

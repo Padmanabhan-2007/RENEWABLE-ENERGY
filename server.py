@@ -10,12 +10,15 @@ if backend_dir not in sys.path:
 import uvicorn
 
 if __name__ == "__main__":
+    host = os.getenv("HOST", "0.0.0.0" if os.getenv("PORT") else "127.0.0.1")
+    port = int(os.getenv("PORT", 8000))
+
     print("=" * 70)
     print("BATCH 9 • RENEWABLE ENERGY PATTERN DISCOVERY")
     print("SRM Institute of Science & Technology • CTECH Department")
     print("=" * 70)
-    print("Serving Unified Application at: http://127.0.0.1:8000")
+    print(f"Serving Unified Application at: http://{host}:{port}")
     print("Press CTRL+C to stop the server.")
     print("=" * 70)
-    uvicorn.run("app.main:app", host="127.0.0.1", port=8000, log_level="info")
+    uvicorn.run("app.main:app", host=host, port=port, log_level="info")
 

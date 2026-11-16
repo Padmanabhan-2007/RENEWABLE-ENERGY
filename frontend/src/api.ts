@@ -19,8 +19,6 @@ const BASE_URL = API_ORIGIN
   ? `${API_ORIGIN}/api`
   : "/api";
 
-const BASE_URL = `${API_ORIGIN}/api`;
-
 export async function fetchStatus(): Promise<{ status: string; dataset_loaded: boolean }> {
   const res = await fetch(`${BASE_URL}/status`);
   if (!res.ok) throw new Error("Failed to fetch API status");

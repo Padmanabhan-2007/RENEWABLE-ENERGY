@@ -11,13 +11,13 @@ import type {
   ReadingFormValues,
 } from "./types";
 
-const API_ORIGIN = import.meta.env.VITE_API_BASE_URL?.replace(/\/+$/, "");
+const API_ORIGIN = (
+  import.meta.env.VITE_API_BASE_URL ?? ""
+).trim().replace(/\/+$/, "");
 
-if (!API_ORIGIN) {
-  throw new Error(
-    "VITE_API_BASE_URL is missing. Configure it in Vercel."
-  );
-}
+const BASE_URL = API_ORIGIN
+  ? `${API_ORIGIN}/api`
+  : "/api";
 
 const BASE_URL = `${API_ORIGIN}/api`;
 
